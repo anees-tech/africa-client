@@ -7,9 +7,12 @@
           if($(window).scrollTop() > 0){
             $('.navtwo').addClass("sticky")
             $('.logo').addClass('logo-2')
+            $('.logo-text').addClass('logo-text-2')
+            
         } else{
             $('.logo').removeClass('logo-2')
             $('.navtwo').removeClass("sticky")
+            $('.logo-text').addClass('logo-text-2')
           }
         });
     });

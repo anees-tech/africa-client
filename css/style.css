@@ -91,6 +91,12 @@
     width: 46px;
     height: 46px;
 }
+.logo-text{
+    font-size: 1.6rem;
+}
+.logo-text-2{
+    font-size: 0.9rem;
+}
 .logo{
     transition: 0.2s;
     max-width: 100%;
@@ -396,10 +402,10 @@
     .about-title p{
         font-size: 1.6rem;
     }
-    .about-img img{
+    /* .about-img img{
         width: 190%;
         height: 104%;
-    }
+    } */
 }
 
 .footer-shape::before {
